@@ -48,6 +48,8 @@ body {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16),
+    0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -274,8 +276,7 @@ body {
 /* section-mainpage-3-4*/
 
 .doing-title,
-.team-title,
-.customers-title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -315,6 +316,9 @@ body {
   background-color: var(--secondary-color);
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item {
@@ -341,12 +345,6 @@ body {
   border: 1px solid #ffffff;
   border-top: none;
   padding: 32px 0;
-}
-
-.first-team-border {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .social {
@@ -378,6 +376,18 @@ body {
 .customers-container {
   padding-bottom: 120px;
   padding-top: 120px;
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 72px;
 }
 
 .customers-list {
@@ -413,7 +423,7 @@ body {
 
 .customers-icon:hover,
 .customers-icon:focus {
-  fill: var(--press-color);
+  color: var(--press-color);
 }
 
 /*  portfolio */
@@ -505,6 +515,10 @@ body {
   /* padding-top: 100px; */
   /* padding-bottom: 100px; */
   padding-left: 0;
+}
+
+.footer-left {
+  gap: 120px;
 }
 
 .container-footer {
