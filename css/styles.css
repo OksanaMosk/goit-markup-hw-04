@@ -353,10 +353,6 @@ body {
   gap: 24px;
 }
 
-.social-list {
-  display: block;
-}
-
 .social-list,
 .social-footer {
   display: flex;
@@ -565,16 +561,11 @@ body {
   height: 100%;
 }
 
-.social-footer {
-  display: block;
-}
-
 .social-footer:hover,
 .social-footer:focus {
   background-color: #31d0aa;
 }
 
 .social-footer-list {
-  display: flex;
   gap: 16px;
 }
